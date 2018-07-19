@@ -25,8 +25,11 @@ class Passphrase: NSObject {
             }
             return Character(UnicodeScalar(unicodeScalar.value + 1)!)
         }
-        
-        return caseChange(unicodeScalars: output)
+        var result = ""
+        for character in output {
+            result += String(character)
+        }
+        return result
     }
     
     func checkIfAlphabetOrNumber(by unicodeScalar: UnicodeScalar) -> Bool {
@@ -44,22 +47,20 @@ class Passphrase: NSObject {
     }
     
     func caseChange(words: String) -> String {
-        
-        
         let dif = "A".unicodeScalars.first!.value - "a".unicodeScalars.first!.value
-        let output = unicodeScalars.enumerated().map { index, character -> Character in
+        let output = words.unicodeScalars.enumerated().map { index, unicodeScalar -> Character in
             if index % 2 == 1 {
-                if character.unicodeScalars.first!.value <= "z".unicodeScalars.first!.value,
-                    "a".unicodeScalars.first!.value <= character.unicodeScalars.first!.value {
-                    return Character(UnicodeScalar(character.unicodeScalars.first!.value + dif)!)
+                if unicodeScalar.value <= "z".unicodeScalars.first!.value,
+                    "a".unicodeScalars.first!.value <= unicodeScalar.value {
+                    return Character(UnicodeScalar(unicodeScalar.value + dif)!)
                 }
             } else {
-                if character.unicodeScalars.first!.value <= "Z".unicodeScalars.first!.value,
-                    "A".unicodeScalars.first!.value <= character.unicodeScalars.first!.value {
-                    return Character(UnicodeScalar(character.unicodeScalars.first!.value - dif)!)
+                if unicodeScalar.value <= "Z".unicodeScalars.first!.value,
+                    "A".unicodeScalars.first!.value <= unicodeScalar.value {
+                    return Character(UnicodeScalar(unicodeScalar.value - dif)!)
                 }
             }
-            return character
+            return Character(unicodeScalar)
         }
         var result = ""
         for character in output {

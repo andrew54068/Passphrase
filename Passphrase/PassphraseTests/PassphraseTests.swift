@@ -40,7 +40,7 @@ class PassphraseTests: XCTestCase {
     
     func testFourthCondition() {
         let result = passphrase.caseChange(words: "wxyz")
-        assert(result == "XyZa", "result: \(result) incorrect")
+        assert(result == "WxYz", "result: \(result) incorrect")
     }
     
     func testExample() {
