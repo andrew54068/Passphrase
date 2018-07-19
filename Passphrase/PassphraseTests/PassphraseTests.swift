@@ -25,7 +25,7 @@ class PassphraseTests: XCTestCase {
     
     func testFirstCondition() {
         let result = passphrase.shiftWords(words: "xyz")
-        assert(result == "xya", "FirstCondition incorrect")
+        assert(result == "yza", "FirstCondition incorrect")
     }
     
     func testExample() {

@@ -12,9 +12,9 @@ class Passphrase: NSObject {
     
     func shiftWords(words: String) -> String {
         let output = words.unicodeScalars.map { unicodeScalar -> Character in
-            if unicodeScalar.value + 1 > "z".unicodeScalars.first!.value {
+            if unicodeScalar.value == "z".unicodeScalars.first!.value {
                 return Character(UnicodeScalar("a".unicodeScalars.first!.value)!)
-            } else if unicodeScalar.value + 1 > "Z".unicodeScalars.first!.value {
+            } else if unicodeScalar.value == "Z".unicodeScalars.first!.value {
                 return Character(UnicodeScalar("A".unicodeScalars.first!.value)!)
             }
             return Character(UnicodeScalar(unicodeScalar.value + 1)!)
