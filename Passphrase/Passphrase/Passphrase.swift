@@ -68,6 +68,10 @@ class Passphrase: NSObject {
         }
         return result
     }
+    
+    func reverse(words: String) -> String {
+        return String(words.reversed())
+    }
 
 }
 
