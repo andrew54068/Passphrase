@@ -48,6 +48,14 @@ class PassphraseTests: XCTestCase {
         assert(result == "543 vsa", "result: \(result) incorrect")
     }
     
+    func testConditionCombine() {
+        let output1 = passphrase.shiftWords(words: "BORN IN 2015!")
+        let output2 = passphrase.caseChange(words: output1)
+        let result = passphrase.reverse(words: output2)
+        
+        assert(result == "!4897 Oj oSpC", "result: \(result) incorrect")
+    }
+    
     func testExample() {
         
     }
