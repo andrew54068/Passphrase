@@ -11,7 +11,7 @@ import XCTest
 
 class PassphraseTests: XCTestCase {
     
-    var passphrase: Passphrase?
+    var passphrase: Passphrase!
     
     override func setUp() {
         super.setUp()
@@ -25,7 +25,7 @@ class PassphraseTests: XCTestCase {
     
     func testFirstCondition() {
         let result = passphrase.shiftWords(words: "abc")
-        assert(result = "cba", "FirstCondition incorrect")
+        assert(result == "bcd", "FirstCondition incorrect")
     }
     
     func testExample() {
