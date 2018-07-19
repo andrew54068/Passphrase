@@ -29,9 +29,9 @@ class Passphrase: NSObject {
     
     func checkIfAlphabet(by unicodeScalar: UnicodeScalar) -> Bool {
         if unicodeScalar.value <= "z".unicodeScalars.first!.value,
-            "a".unicodeScalars.first!.value >= unicodeScalar.value {
+            "a".unicodeScalars.first!.value <= unicodeScalar.value {
         } else if unicodeScalar.value <= "Z".unicodeScalars.first!.value,
-            "A".unicodeScalars.first!.value >= unicodeScalar.value {
+            "A".unicodeScalars.first!.value <= unicodeScalar.value {
         } else {
             return false
         }
