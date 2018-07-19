@@ -25,11 +25,8 @@ class Passphrase: NSObject {
             }
             return Character(UnicodeScalar(unicodeScalar.value + 1)!)
         }
-        var result = ""
-        for character in output {
-            result += String(character)
-        }
-        return result
+        
+        return caseChange(unicodeScalars: output)
     }
     
     func checkIfAlphabetOrNumber(by unicodeScalar: UnicodeScalar) -> Bool {
@@ -44,6 +41,31 @@ class Passphrase: NSObject {
             return false
         }
         return true
+    }
+    
+    func caseChange(words: String) -> String {
+        
+        
+        let dif = "A".unicodeScalars.first!.value - "a".unicodeScalars.first!.value
+        let output = unicodeScalars.enumerated().map { index, character -> Character in
+            if index % 2 == 1 {
+                if character.unicodeScalars.first!.value <= "z".unicodeScalars.first!.value,
+                    "a".unicodeScalars.first!.value <= character.unicodeScalars.first!.value {
+                    return Character(UnicodeScalar(character.unicodeScalars.first!.value + dif)!)
+                }
+            } else {
+                if character.unicodeScalars.first!.value <= "Z".unicodeScalars.first!.value,
+                    "A".unicodeScalars.first!.value <= character.unicodeScalars.first!.value {
+                    return Character(UnicodeScalar(character.unicodeScalars.first!.value - dif)!)
+                }
+            }
+            return character
+        }
+        var result = ""
+        for character in output {
+            result += String(character)
+        }
+        return result
     }
 
 }
