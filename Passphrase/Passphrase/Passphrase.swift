@@ -49,15 +49,15 @@ class Passphrase: NSObject {
     func caseChange(words: String) -> String {
         let dif = "a".unicodeScalars.first!.value - "A".unicodeScalars.first!.value
         let output = words.unicodeScalars.enumerated().map { index, unicodeScalar -> Character in
-            if index % 2 == 1 {
+            if index % 2 == 0 {
                 if unicodeScalar.value <= "z".unicodeScalars.first!.value,
                     "a".unicodeScalars.first!.value <= unicodeScalar.value {
-                    return Character(UnicodeScalar(unicodeScalar.value + dif)!)
+                    return Character(UnicodeScalar(unicodeScalar.value - dif)!)
                 }
             } else {
                 if unicodeScalar.value <= "Z".unicodeScalars.first!.value,
                     "A".unicodeScalars.first!.value <= unicodeScalar.value {
-                    return Character(UnicodeScalar(unicodeScalar.value - dif)!)
+                    return Character(UnicodeScalar(unicodeScalar.value + dif)!)
                 }
             }
             return Character(unicodeScalar)
