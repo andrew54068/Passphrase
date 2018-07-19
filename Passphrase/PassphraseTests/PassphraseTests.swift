@@ -43,6 +43,11 @@ class PassphraseTests: XCTestCase {
         assert(result == "WxYz", "result: \(result) incorrect")
     }
     
+    func testFifthCondition() {
+        let result = passphrase.reverse(words: "asv 345")
+        assert(result == "543 vsa", "result: \(result) incorrect")
+    }
+    
     func testExample() {
         
     }
