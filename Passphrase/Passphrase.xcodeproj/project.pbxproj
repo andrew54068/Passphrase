@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1FAB13B2100EAD300539975 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FAB13A2100EAD300539975 /* AppDelegate.swift */; };
+		C1FAB13D2100EAD300539975 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FAB13C2100EAD300539975 /* ViewController.swift */; };
+		C1FAB1402100EAD300539975 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1FAB13E2100EAD300539975 /* Main.storyboard */; };
+		C1FAB1422100EAD400539975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1FAB1412100EAD400539975 /* Assets.xcassets */; };
+		C1FAB1452100EAD400539975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1FAB1432100EAD400539975 /* LaunchScreen.storyboard */; };
+		C1FAB1502100EAD400539975 /* PassphraseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FAB14F2100EAD400539975 /* PassphraseTests.swift */; };
+		C1FAB15B2100EAD400539975 /* PassphraseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FAB15A2100EAD400539975 /* PassphraseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1FAB14C2100EAD400539975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FAB12F2100EAD300539975 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1FAB1362100EAD300539975;
+			remoteInfo = Passphrase;
+		};
+		C1FAB1572100EAD400539975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FAB12F2100EAD300539975 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1FAB1362100EAD300539975;
+			remoteInfo = Passphrase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1FAB1372100EAD300539975 /* Passphrase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Passphrase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1FAB13A2100EAD300539975 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1FAB13C2100EAD300539975 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1FAB13F2100EAD300539975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1FAB1412100EAD400539975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1FAB1442100EAD400539975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1FAB1462100EAD400539975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1FAB14B2100EAD400539975 /* PassphraseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassphraseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1FAB14F2100EAD400539975 /* PassphraseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassphraseTests.swift; sourceTree = "<group>"; };
+		C1FAB1512100EAD400539975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1FAB1562100EAD400539975 /* PassphraseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassphraseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1FAB15A2100EAD400539975 /* PassphraseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassphraseUITests.swift; sourceTree = "<group>"; };
+		C1FAB15C2100EAD400539975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1FAB1342100EAD300539975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1FAB1482100EAD400539975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1FAB1532100EAD400539975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1FAB12E2100EAD300539975 = {
+			isa = PBXGroup;
+			children = (
+				C1FAB1392100EAD300539975 /* Passphrase */,
+				C1FAB14E2100EAD400539975 /* PassphraseTests */,
+				C1FAB1592100EAD400539975 /* PassphraseUITests */,
+				C1FAB1382100EAD300539975 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1FAB1382100EAD300539975 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1FAB1372100EAD300539975 /* Passphrase.app */,
+				C1FAB14B2100EAD400539975 /* PassphraseTests.xctest */,
+				C1FAB1562100EAD400539975 /* PassphraseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1FAB1392100EAD300539975 /* Passphrase */ = {
+			isa = PBXGroup;
+			children = (
+				C1FAB13A2100EAD300539975 /* AppDelegate.swift */,
+				C1FAB13C2100EAD300539975 /* ViewController.swift */,
+				C1FAB13E2100EAD300539975 /* Main.storyboard */,
+				C1FAB1412100EAD400539975 /* Assets.xcassets */,
+				C1FAB1432100EAD400539975 /* LaunchScreen.storyboard */,
+				C1FAB1462100EAD400539975 /* Info.plist */,
+			);
+			path = Passphrase;
+			sourceTree = "<group>";
+		};
+		C1FAB14E2100EAD400539975 /* PassphraseTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1FAB14F2100EAD400539975 /* PassphraseTests.swift */,
+				C1FAB1512100EAD400539975 /* Info.plist */,
+			);
+			path = PassphraseTests;
+			sourceTree = "<group>";
+		};
+		C1FAB1592100EAD400539975 /* PassphraseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1FAB15A2100EAD400539975 /* PassphraseUITests.swift */,
+				C1FAB15C2100EAD400539975 /* Info.plist */,
+			);
+			path = PassphraseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1FAB1362100EAD300539975 /* Passphrase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1FAB15F2100EAD400539975 /* Build configuration list for PBXNativeTarget "Passphrase" */;
+			buildPhases = (
+				C1FAB1332100EAD300539975 /* Sources */,
+				C1FAB1342100EAD300539975 /* Frameworks */,
+				C1FAB1352100EAD300539975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Passphrase;
+			productName = Passphrase;
+			productReference = C1FAB1372100EAD300539975 /* Passphrase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1FAB14A2100EAD400539975 /* PassphraseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1FAB1622100EAD400539975 /* Build configuration list for PBXNativeTarget "PassphraseTests" */;
+			buildPhases = (
+				C1FAB1472100EAD400539975 /* Sources */,
+				C1FAB1482100EAD400539975 /* Frameworks */,
+				C1FAB1492100EAD400539975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1FAB14D2100EAD400539975 /* PBXTargetDependency */,
+			);
+			name = PassphraseTests;
+			productName = PassphraseTests;
+			productReference = C1FAB14B2100EAD400539975 /* PassphraseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1FAB1552100EAD400539975 /* PassphraseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1FAB1652100EAD400539975 /* Build configuration list for PBXNativeTarget "PassphraseUITests" */;
+			buildPhases = (
+				C1FAB1522100EAD400539975 /* Sources */,
+				C1FAB1532100EAD400539975 /* Frameworks */,
+				C1FAB1542100EAD400539975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1FAB1582100EAD400539975 /* PBXTargetDependency */,
+			);
+			name = PassphraseUITests;
+			productName = PassphraseUITests;
+			productReference = C1FAB1562100EAD400539975 /* PassphraseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1FAB12F2100EAD300539975 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = kidnapper;
+				TargetAttributes = {
+					C1FAB1362100EAD300539975 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					C1FAB14A2100EAD400539975 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = C1FAB1362100EAD300539975;
+					};
+					C1FAB1552100EAD400539975 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = C1FAB1362100EAD300539975;
+					};
+				};
+			};
+			buildConfigurationList = C1FAB1322100EAD300539975 /* Build configuration list for PBXProject "Passphrase" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1FAB12E2100EAD300539975;
+			productRefGroup = C1FAB1382100EAD300539975 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1FAB1362100EAD300539975 /* Passphrase */,
+				C1FAB14A2100EAD400539975 /* PassphraseTests */,
+				C1FAB1552100EAD400539975 /* PassphraseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1FAB1352100EAD300539975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1FAB1452100EAD400539975 /* LaunchScreen.storyboard in Resources */,
+				C1FAB1422100EAD400539975 /* Assets.xcassets in Resources */,
+				C1FAB1402100EAD300539975 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1FAB1492100EAD400539975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1FAB1542100EAD400539975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1FAB1332100EAD300539975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1FAB13D2100EAD300539975 /* ViewController.swift in Sources */,
+				C1FAB13B2100EAD300539975 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1FAB1472100EAD400539975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1FAB1502100EAD400539975 /* PassphraseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1FAB1522100EAD400539975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1FAB15B2100EAD400539975 /* PassphraseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1FAB14D2100EAD400539975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1FAB1362100EAD300539975 /* Passphrase */;
+			targetProxy = C1FAB14C2100EAD400539975 /* PBXContainerItemProxy */;
+		};
+		C1FAB1582100EAD400539975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1FAB1362100EAD300539975 /* Passphrase */;
+			targetProxy = C1FAB1572100EAD400539975 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1FAB13E2100EAD300539975 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1FAB13F2100EAD300539975 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1FAB1432100EAD400539975 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1FAB1442100EAD400539975 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1FAB15D2100EAD400539975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1FAB15E2100EAD400539975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1FAB1602100EAD400539975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBNB4ZFFP9;
+				INFOPLIST_FILE = Passphrase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kidnapper.Passphrase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1FAB1612100EAD400539975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBNB4ZFFP9;
+				INFOPLIST_FILE = Passphrase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kidnapper.Passphrase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1FAB1632100EAD400539975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBNB4ZFFP9;
+				INFOPLIST_FILE = PassphraseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kidnapper.PassphraseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Passphrase.app/Passphrase";
+			};
+			name = Debug;
+		};
+		C1FAB1642100EAD400539975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBNB4ZFFP9;
+				INFOPLIST_FILE = PassphraseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kidnapper.PassphraseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Passphrase.app/Passphrase";
+			};
+			name = Release;
+		};
+		C1FAB1662100EAD400539975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBNB4ZFFP9;
+				INFOPLIST_FILE = PassphraseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kidnapper.PassphraseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Passphrase;
+			};
+			name = Debug;
+		};
+		C1FAB1672100EAD400539975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBNB4ZFFP9;
+				INFOPLIST_FILE = PassphraseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kidnapper.PassphraseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Passphrase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1FAB1322100EAD300539975 /* Build configuration list for PBXProject "Passphrase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1FAB15D2100EAD400539975 /* Debug */,
+				C1FAB15E2100EAD400539975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1FAB15F2100EAD400539975 /* Build configuration list for PBXNativeTarget "Passphrase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1FAB1602100EAD400539975 /* Debug */,
+				C1FAB1612100EAD400539975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1FAB1622100EAD400539975 /* Build configuration list for PBXNativeTarget "PassphraseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1FAB1632100EAD400539975 /* Debug */,
+				C1FAB1642100EAD400539975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1FAB1652100EAD400539975 /* Build configuration list for PBXNativeTarget "PassphraseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1FAB1662100EAD400539975 /* Debug */,
+				C1FAB1672100EAD400539975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1FAB12F2100EAD300539975 /* Project object */;
+}
